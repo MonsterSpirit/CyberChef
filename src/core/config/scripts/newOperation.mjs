@@ -30,7 +30,7 @@ const schema = {
     properties: {
         opName: {
             description: "The operation name should be short but descriptive.",
-            example: "URL Decode",
+            example: "URL 解码",
             prompt: "Operation name",
             type: "string",
             pattern: /^[\w\s-/().]+$/,

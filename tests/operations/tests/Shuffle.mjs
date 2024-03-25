@@ -27,7 +27,7 @@ TestRegister.addTests([
                 "args": ["Nothing (separate chars)"]
             },
             {
-                "op": "To Hex",
+                "op": "编码 Hex",
                 "args": ["Space", 0]
             },
             {

@@ -31,7 +31,7 @@ class FromBase32 extends Operation {
                 value: "A-Z2-7="
             },
             {
-                name: "Remove non-alphabet chars",
+                name: "移除非字母字符",
                 type: "boolean",
                 value: true
             }

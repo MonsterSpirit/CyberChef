@@ -18,7 +18,7 @@ TestRegister.addTests([
         expectedOutput: testCardSplit,
         recipeConfig: [
             {
-                "op": "From Base64",
+                "op": "解码 Base64",
                 "args": ["A-Za-z0-9+/=", true]
             },
             {
@@ -26,7 +26,7 @@ TestRegister.addTests([
                 "args": []
             },
             {
-                "op": "To Base64",
+                "op": "编码 Base64",
                 "args": ["A-Za-z0-9+/="]
             }
         ]

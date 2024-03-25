@@ -9,7 +9,7 @@ import TestRegister from "../../lib/TestRegister.mjs";
 
 TestRegister.addTests([
     {
-        name: "LZString Compress To Base64",
+        name: "LZString Compress 编码 Base64",
         input: "hello world",
         expectedOutput: "BYUwNmD2AEDukCcwBMg=",
         recipeConfig: [

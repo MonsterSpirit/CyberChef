@@ -364,7 +364,7 @@ TestRegister.addTests([
         expectedOutput: "Could not decode MessagePack to JSON: Error: Could not parse",
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Space"]
             },
             {
@@ -383,7 +383,7 @@ TestRegister.addTests([
                 "args": []
             },
             {
-                "op": "To Hex",
+                "op": "编码 Hex",
                 "args": ["Space"]
             }
         ]
@@ -394,7 +394,7 @@ TestRegister.addTests([
         expectedOutput: JSON.stringify(JSON_TEST_DATA, null, 4),
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Space"]
             },
             {

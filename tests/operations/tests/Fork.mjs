@@ -61,10 +61,10 @@ TestRegister.addTests([
         recipeConfig: [
             {"op": "Fork", "args": ["\\n", "\\n", false]},
             {"op": "Conditional Jump", "args": ["1", false, "skipReturn", "10"]},
-            {"op": "To Hex", "args": ["Space"]},
+            {"op": "编码 Hex", "args": ["Space"]},
             {"op": "Return", "args": []},
             {"op": "Label", "args": ["skipReturn"]},
-            {"op": "To Base64", "args": ["A-Za-z0-9+/="]}
+            {"op": "编码 Base64", "args": ["A-Za-z0-9+/="]}
         ]
     },
     {
@@ -75,7 +75,7 @@ TestRegister.addTests([
             { "op": "Fork",   "args": [" ", " ", false] },
             { "op": "Fork",   "args": ["l", "l", false] },
             { "op": "Merge",  "args": [false] },
-            { "op": "To Hex", "args": ["None", 0] },
+            { "op": "编码 Hex", "args": ["None", 0] },
         ]
     },
 ]);

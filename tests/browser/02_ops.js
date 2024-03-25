@@ -34,7 +34,7 @@ module.exports = {
         testOp(browser, "AES Encrypt", "test input", "e42eb8fbfb7a98fff061cd2c1a794d92", [{"option": "Hex", "string": "00112233445566778899aabbccddeeff"}, {"option": "Hex", "string": "00000000000000000000000000000000"}, "CBC", "Raw", "Hex"]);
         testOp(browser, "AND", "test input", "4$04  $044", [{ "option": "Hex", "string": "34" }]);
         testOp(browser, "Add line numbers", "test input", "1 test input");
-        testOp(browser, ["From Hex", "Add Text To Image", "To Base64"], Images.PNG_HEX, Images.PNG_CHEF_B64, [[], ["Chef", "Center", "Middle", 0, 0, 16], []]);
+        testOp(browser, ["解码 Hex", "Add Text To Image", "编码 Base64"], Images.PNG_HEX, Images.PNG_CHEF_B64, [[], ["Chef", "Center", "Middle", 0, 0, 16], []]);
         testOp(browser, "Adler-32 Checksum", "test input", "16160411");
         testOp(browser, "Affine Cipher Decode", "test input", "rcqr glnsr", [1, 2]);
         testOp(browser, "Affine Cipher Encode", "test input", "njln rbfpn", [2, 1]);
@@ -58,10 +58,10 @@ module.exports = {
         testOp(browser, "Bit shift right", "test input", ":29:\u0010478::");
         testOp(browser, "Blowfish Decrypt", "10884e15427dd84ec35204e9c8e921ae", "test_output", [{"option": "Hex", "string": "1234567801234567"}, {"option": "Hex", "string": "0011223344556677"}, "CBC", "Hex", "Raw"]);
         testOp(browser, "Blowfish Encrypt", "test input", "f0fadbd1d90d774f714248cf26b96410", [{"option": "Hex", "string": "1234567801234567"}, {"option": "Hex", "string": "0011223344556677"}, "CBC", "Raw", "Hex"]);
-        testOp(browser, ["From Hex", "Blur Image", "To Base64"], Images.PNG_HEX, Images.PNG_BLUR_B64);
+        testOp(browser, ["解码 Hex", "Blur Image", "编码 Base64"], Images.PNG_HEX, Images.PNG_BLUR_B64);
         testOpHtml(browser, "Bombe", "XTSYN WAEUG EZALY NRQIM AMLZX MFUOD AWXLY LZCUZ QOQBQ JLCPK NDDRW F", "table tr:last-child td:first-child", "ECG", ["3-rotor", "LEYJVCNIXWPBQMDRTAKZGFUHOS", "BDFHJLCPRTXVZNYEIWGAKMUSQO<W", "AJDKSIRUXBLHWTMCQGZNPYFVOE<F", "ESOVPZJAYQUIRHXLNFTGKDCMWB<K", "AY BR CU DH EQ FS GL IP JX KN MO TZ VW", "HELLO CYBER CHEFU SER", 0, true]);
-        testOp(browser, ["Bzip2 Compress", "To Hex"], "test input", "42 5a 68 39 31 41 59 26 53 59 cf 96 82 1d 00 00 03 91 80 40 00 02 21 4e 00 20 00 21 90 c2 10 c0 88 33 92 8e df 17 72 45 38 50 90 cf 96 82 1d");
-        testOp(browser, ["From Hex", "Bzip2 Decompress"], "425a68393141592653597b0884b7000003038000008200ce00200021a647a4218013709517c5dc914e14241ec2212dc0", "test_output", [[], [true]]);
+        testOp(browser, ["Bzip2 Compress", "编码 Hex"], "test input", "42 5a 68 39 31 41 59 26 53 59 cf 96 82 1d 00 00 03 91 80 40 00 02 21 4e 00 20 00 21 90 c2 10 c0 88 33 92 8e df 17 72 45 38 50 90 cf 96 82 1d");
+        testOp(browser, ["解码 Hex", "Bzip2 Decompress"], "425a68393141592653597b0884b7000003038000008200ce00200021a647a4218013709517c5dc914e14241ec2212dc0", "test_output", [[], [true]]);
     // testOp(browser, "CBOR Decode", "test input", "test output");
     // testOp(browser, "CBOR Encode", "test input", "test output");
         testOp(browser, "CRC-16 Checksum", "test input", "77c7");
@@ -147,7 +147,7 @@ module.exports = {
         // testOp(browser, "From Base32", "test input", "test_output");
         // testOp(browser, "From Base58", "test input", "test_output");
         // testOp(browser, "From Base62", "test input", "test_output");
-        // testOp(browser, "From Base64", "test input", "test_output");
+        // testOp(browser, "解码 Base64", "test input", "test_output");
         // testOp(browser, "From Base85", "test input", "test_output");
         // testOp(browser, "From Binary", "test input", "test_output");
         // testOp(browser, "From Braille", "test input", "test_output");
@@ -155,9 +155,9 @@ module.exports = {
         // testOp(browser, "From Charcode", "test input", "test_output");
         // testOp(browser, "From Decimal", "test input", "test_output");
         // testOp(browser, "From HTML Entity", "test input", "test_output");
-        // testOp(browser, "From Hex", "test input", "test_output");
+        // testOp(browser, "解码 Hex", "test input", "test_output");
         // testOp(browser, "From Hex Content", "test input", "test_output");
-        // testOp(browser, "From Hexdump", "test input", "test_output");
+        // testOp(browser, "解码 Hexdump", "test input", "test_output");
     // testOp(browser, "From MessagePack", "test input", "test_output");
         // testOp(browser, "From Morse Code", "test input", "test_output");
         // testOp(browser, "From Octal", "test input", "test_output");
@@ -341,7 +341,7 @@ module.exports = {
         // testOp(browser, "To Base32", "test input", "test_output");
         // testOp(browser, "To Base58", "test input", "test_output");
         // testOp(browser, "To Base62", "test input", "test_output");
-        // testOp(browser, "To Base64", "test input", "test_output");
+        // testOp(browser, "编码 Base64", "test input", "test_output");
         // testOp(browser, "To Base85", "test input", "test_output");
         // testOp(browser, "To Binary", "test input", "test_output");
         // testOp(browser, "To Braille", "test input", "test_output");
@@ -350,9 +350,9 @@ module.exports = {
         // testOp(browser, "To Charcode", "test input", "test_output");
         // testOp(browser, "To Decimal", "test input", "test_output");
         // testOp(browser, "To HTML Entity", "test input", "test_output");
-        // testOp(browser, "To Hex", "test input", "test_output");
+        // testOp(browser, "编码 Hex", "test input", "test_output");
         // testOp(browser, "To Hex Content", "test input", "test_output");
-        // testOp(browser, "To Hexdump", "test input", "test_output");
+        // testOp(browser, "编码 Hexdump", "test input", "test_output");
     // testOp(browser, "To Kebab case", "test input", "test_output");
         // testOp(browser, "To Lower case", "test input", "test_output");
     // testOp(browser, "To MessagePack", "test input", "test_output");
@@ -369,7 +369,7 @@ module.exports = {
         // testOp(browser, "Triple DES Encrypt", "test input", "test_output");
         // testOp(browser, "Typex", "test input", "test_output");
         // testOp(browser, "UNIX Timestamp to Windows Filetime", "test input", "test_output");
-        // testOp(browser, "URL Decode", "test input", "test_output");
+        // testOp(browser, "URL 解码", "test input", "test_output");
         // testOp(browser, "URL Encode", "test input", "test_output");
         // testOp(browser, "Unescape string", "test input", "test_output");
         // testOp(browser, "Unescape Unicode Characters", "test input", "test_output");

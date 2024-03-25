@@ -14,7 +14,7 @@ TestRegister.addTests([
         expectedOutput: "The cat sat on the mat.",
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Space"]
             },
             {
@@ -46,7 +46,7 @@ TestRegister.addTests([
         expectedOutput: "00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10",
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Space"]
             },
             {
@@ -54,7 +54,7 @@ TestRegister.addTests([
                 "args": []
             },
             {
-                "op": "To Hex",
+                "op": "编码 Hex",
                 "args": ["Space", 0]
             }
         ],
@@ -66,7 +66,7 @@ TestRegister.addTests([
         expectedOutput: "The cat sat on the mat.",
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Space"]
             },
             {
@@ -85,7 +85,7 @@ TestRegister.addTests([
                 "args": []
             },
             {
-                "op": "To Hex",
+                "op": "编码 Hex",
                 "args": ["None", 0]
             }
         ],
@@ -96,7 +96,7 @@ TestRegister.addTests([
         expectedOutput: "The cat sat on the mat.",
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {

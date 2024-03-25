@@ -16,7 +16,7 @@ TestRegister.addTests([
         expectedOutput: "The quick brown fox jumped over the slow dog",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["None"]
             },
             {
@@ -31,7 +31,7 @@ TestRegister.addTests([
         expectedOutput: "The quick brown fox jumped over the slow dog",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["None"]
             },
             {
@@ -46,7 +46,7 @@ TestRegister.addTests([
         expectedOutput: "The quick brown fox jumped over the slow dog",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["None"]
             },
             {

@@ -23,11 +23,11 @@ TestRegister.addTests([
                 args: ["match", false, "", 0],
             },
             {
-                op: "To Base64",
+                op: "编码 Base64",
                 args: ["A-Za-z0-9+/="],
             },
             {
-                op: "To Base64",
+                op: "编码 Base64",
                 args: ["A-Za-z0-9+/="],
             },
         ],
@@ -47,7 +47,7 @@ TestRegister.addTests([
                 args: ["should", false, "skip match", 10],
             },
             {
-                op: "To Base64",
+                op: "编码 Base64",
                 args: ["A-Za-z0-9+/="],
             },
             {

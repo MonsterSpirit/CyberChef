@@ -29,7 +29,7 @@ TestRegister.addTests([
         expectedOutput: ELF32_LE_OUTPUT,
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["None"],
             },
             {
@@ -44,7 +44,7 @@ TestRegister.addTests([
         expectedOutput: ELF32_BE_OUTPUT,
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["None"],
             },
             {
@@ -59,7 +59,7 @@ TestRegister.addTests([
         expectedOutput: ELF64_LE_OUTPUT,
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["None"],
             },
             {
@@ -74,7 +74,7 @@ TestRegister.addTests([
         expectedOutput: ELF64_BE_OUTPUT,
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["None"],
             },
             {

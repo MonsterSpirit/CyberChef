@@ -53,7 +53,7 @@ TestRegister.addTests([
                 "args": ["Testing 123"]
             },
             {
-                "op": "To Base64",
+                "op": "编码 Base64",
                 "args": ["A-Za-z0-9+/="]
             }
         ]

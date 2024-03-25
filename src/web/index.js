@@ -26,13 +26,13 @@ import OperationConfig from "../core/config/OperationConfig.json" assert {type: 
  */
 function main() {
     const defaultFavourites = [
-        "To Base64",
-        "From Base64",
-        "To Hex",
-        "From Hex",
-        "To Hexdump",
-        "From Hexdump",
-        "URL Decode",
+        "编码 Base64",
+        "解码 Base64",
+        "编码 Hex",
+        "解码 Hex",
+        "编码 Hexdump",
+        "解码 Hexdump",
+        "URL 解码",
         "Regular expression",
         "Entropy",
         "Fork",

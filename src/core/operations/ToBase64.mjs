@@ -18,9 +18,9 @@ class ToBase64 extends Operation {
     constructor() {
         super();
 
-        this.name = "To Base64";
+        this.name = "编码 Base64";
         this.module = "Default";
-        this.description = "Base64 is a notation for encoding arbitrary byte data using a restricted set of symbols that can be conveniently used by humans and processed by computers.<br><br>This operation encodes raw data into an ASCII Base64 string.<br><br>e.g. <code>hello</code> becomes <code>aGVsbG8=</code>";
+        this.description = "Base64 是一种使用受限符号集对任意字节数据进行编码的表示方法，这些符号既方便人类使用，又能被计算机处理。<br><br>这个操作将原始数据编码为 ASCII 编码的 Base64 字符串。<br><br>e.g. <code>hello</code> becomes <code>aGVsbG8=</code>";
         this.infoURL = "https://wikipedia.org/wiki/Base64";
         this.inputType = "ArrayBuffer";
         this.outputType = "string";

@@ -14,7 +14,7 @@ TestRegister.addTests([
         expectedOutput: "http://en.m.wikipedia.org",
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -29,7 +29,7 @@ TestRegister.addTests([
         expectedOutput: "Hello world!",
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Space"]
             },
             {
@@ -44,7 +44,7 @@ TestRegister.addTests([
         expectedOutput: "http://en.m.wikipedia.org",
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -59,7 +59,7 @@ TestRegister.addTests([
         expectedOutput: "https://globeon.mobi/jyri",
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {

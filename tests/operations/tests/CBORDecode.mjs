@@ -15,7 +15,7 @@ TestRegister.addTests([
         expectedOutput: "15",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: []
             },
             {
@@ -30,7 +30,7 @@ TestRegister.addTests([
         expectedOutput: "1.5",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: []
             },
             {
@@ -45,7 +45,7 @@ TestRegister.addTests([
         expectedOutput: "\"Text\"",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: []
             },
             {
@@ -60,7 +60,7 @@ TestRegister.addTests([
         expectedOutput: "true",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: []
             },
             {
@@ -75,7 +75,7 @@ TestRegister.addTests([
         expectedOutput: "false",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: []
             },
             {
@@ -90,7 +90,7 @@ TestRegister.addTests([
         expectedOutput: JSON.stringify({a: 1, b: 2, c: 3}),
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: []
             },
             {
@@ -109,7 +109,7 @@ TestRegister.addTests([
         expectedOutput: "[0,1,2]",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: []
             },
             {

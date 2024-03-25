@@ -110,7 +110,8 @@ module.exports = {
             "crypto": require.resolve("crypto-browserify"),
             "stream": require.resolve("stream-browserify"),
             "zlib": require.resolve("browserify-zlib"),
-            "process": false
+            "process": false,
+            "vm": require.resolve("vm-browserify")
         }
     },
     module: {

@@ -26,7 +26,7 @@ TestRegister.addTests([
         "expectedOutput": "070a16b46b4d4144f79bdd9dd04a287c",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -41,7 +41,7 @@ TestRegister.addTests([
         "expectedOutput": "7d85449ea6ea19c823a7bf78837dfade",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -56,7 +56,7 @@ TestRegister.addTests([
         "expectedOutput": "51f0bebf7e3b9d92fc49741779363cfe",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -82,7 +82,7 @@ TestRegister.addTests([
         "expectedOutput": "9e99a7bf31e710900662f65e617c5184",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -97,7 +97,7 @@ TestRegister.addTests([
         "expectedOutput": "3d75c194ed96070444a9fa7ec740ecf8",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -112,7 +112,7 @@ TestRegister.addTests([
         "expectedOutput": "a1d5df0eed790f794d77589659f39a11",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -138,7 +138,7 @@ TestRegister.addTests([
         "expectedOutput": "28a7023f452e8f82bd4bf28d8c37c35c",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -153,7 +153,7 @@ TestRegister.addTests([
         "expectedOutput": "156727dc0878944a023c1fe03bad6d93",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -168,7 +168,7 @@ TestRegister.addTests([
         "expectedOutput": "e1992190549f6ed5696a2c056c315410",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -194,7 +194,7 @@ TestRegister.addTests([
         "expectedOutput": "30239cf1f52e6609",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -209,7 +209,7 @@ TestRegister.addTests([
         "expectedOutput": "6c9f3ee4923f6be2",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -224,7 +224,7 @@ TestRegister.addTests([
         "expectedOutput": "99429bd0bf7904e5",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -250,7 +250,7 @@ TestRegister.addTests([
         "expectedOutput": "cc18a0b79af2413b",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -265,7 +265,7 @@ TestRegister.addTests([
         "expectedOutput": "c06d377ecd101969",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {
@@ -280,7 +280,7 @@ TestRegister.addTests([
         "expectedOutput": "9cd33580f9b64dfb",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             },
             {

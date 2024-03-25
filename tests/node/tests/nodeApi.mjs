@@ -163,7 +163,7 @@ TestRegister.addApiTests([
     it("chef.help: exact match ignores whitespace", () => {
         const result = chef.help("tobase64");
         assert.strictEqual(result.length, 1);
-        assert.strictEqual(result[0].name, "To Base64");
+        assert.strictEqual(result[0].name, "编码 Base64");
     }),
 
     it("chef.bake: should exist", () => {
@@ -207,12 +207,12 @@ TestRegister.addApiTests([
     }),
 
     it("chef.bake: accepts an array of operation names and performs them all in order", () => {
-        const result = chef.bake("https://google.com/search?q=that's a complicated question", ["URL encode", "URL decode", "Parse URI"]);
+        const result = chef.bake("https://google.com/search?q=that's a complicated question", ["URL encode", "URL 解码", "Parse URI"]);
         assert.strictEqual(result.toString(), "Protocol:\thttps:\nHostname:\tgoogle.com\nPath name:\t/search\nArguments:\n\tq = that's a complicated question\n");
     }),
 
     it("chef.bake: forgiving with operation names", () =>{
-        const result = chef.bake("https://google.com/search?q=that's a complicated question", ["urlencode", "url decode", "parseURI"]);
+        const result = chef.bake("https://google.com/search?q=that's a complicated question", ["urlencode", "URL 解码", "parseURI"]);
         assert.strictEqual(result.toString(), "Protocol:\thttps:\nHostname:\tgoogle.com\nPath name:\t/search\nArguments:\n\tq = that's a complicated question\n");
     }),
 

@@ -24,7 +24,7 @@ TestRegister.addTests([
                 args: [0, 10, false]
             },
             {
-                op: "To Hex",
+                op: "编码 Hex",
                 args: ["None"]
             }
         ]
@@ -43,7 +43,7 @@ TestRegister.addTests([
                 args: [0, 10, false]
             },
             {
-                op: "To Hex",
+                op: "编码 Hex",
                 args: ["None"]
             }
         ]
@@ -62,7 +62,7 @@ TestRegister.addTests([
                 args: [0, 10, false]
             },
             {
-                op: "To Hex",
+                op: "编码 Hex",
                 args: ["None"]
             }
         ]
@@ -81,7 +81,7 @@ TestRegister.addTests([
                 args: [0, 10, false]
             },
             {
-                op: "To Hex",
+                op: "编码 Hex",
                 args: ["None"]
             }
         ]

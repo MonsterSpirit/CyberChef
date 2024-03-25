@@ -24,7 +24,7 @@ TestRegister.addTests([
         }, null, 4),
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Auto"]
             },
             {
@@ -47,7 +47,7 @@ TestRegister.addTests([
         }, null, 4),
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Auto"]
             },
             {
@@ -87,7 +87,7 @@ TestRegister.addTests([
         }, null, 4),
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Auto"]
             },
             {
@@ -124,7 +124,7 @@ TestRegister.addTests([
         }, null, 4),
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Auto"]
             },
             {
@@ -172,7 +172,7 @@ TestRegister.addTests([
         }, null, 4),
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Auto"]
             },
             {
@@ -245,7 +245,7 @@ TestRegister.addTests([
                 ]
             },
             {
-                "op": "To Hex",
+                "op": "编码 Hex",
                 "args": [
                     "None",
                     0
@@ -295,7 +295,7 @@ TestRegister.addTests([
                 ]
             },
             {
-                "op": "To Hex",
+                "op": "编码 Hex",
                 "args": [
                     "None",
                     0

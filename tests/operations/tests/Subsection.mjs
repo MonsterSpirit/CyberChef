@@ -59,7 +59,7 @@ TestRegister.addTests([
                 "args": ["386756", true, true, false],
             },
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Auto"],
             },
             {
@@ -67,7 +67,7 @@ TestRegister.addTests([
                 "args": [true],
             },
             {
-                "op": "From Base64",
+                "op": "解码 Base64",
                 "args": ["A-Za-z0-9+/=", true, false],
             },
         ],
@@ -86,7 +86,7 @@ TestRegister.addTests([
                 "args": ["386756", true, true, false],
             },
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Auto"],
             },
             {
@@ -94,7 +94,7 @@ TestRegister.addTests([
                 "args": [false],
             },
             {
-                "op": "From Base64",
+                "op": "解码 Base64",
                 "args": ["A-Za-z0-9+/=", true, false],
             },
         ],

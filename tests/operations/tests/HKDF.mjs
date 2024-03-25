@@ -12,7 +12,7 @@ TestRegister.addTests([
         "expectedOutput": "3cb25f25faacd57a90434f64d0362f2a2d2d0a90cf1a5a4c5db02d56ecc4c5bf34007208d5b887185865",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"],
             },
             {
@@ -31,7 +31,7 @@ TestRegister.addTests([
         "expectedOutput": "b11e398dc80327a1c8e7f78c596a49344f012eda2d4efad8a050cc4c19afa97c59045a99cac7827271cb41c65e590e09da3275600c2f09b8367793a9aca3db71cc30c58179ec3e87c14c01d5c1f3434f1d87",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"],
             },
             {
@@ -50,7 +50,7 @@ TestRegister.addTests([
         "expectedOutput": "8da4e775a563c18f715f802a063c5a31b8a11f5c5ee1879ec3454e5f3c738d2d9d201395faa4b61a96c8",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"],
             },
             {
@@ -69,7 +69,7 @@ TestRegister.addTests([
         "expectedOutput": "085a01ea1b10f36933068b56efa5ad81a4f14b822f5b091568a9cdd4f155fda2c22e422478d305f3f896",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"],
             },
             {
@@ -88,7 +88,7 @@ TestRegister.addTests([
         "expectedOutput": "0bd770a74d1160f7c9f12cd5912a06ebff6adcae899d92191fe4305673ba2ffe8fa3f1a4e5ad79f3f334b3b202b2173c486ea37ce3d397ed034c7f9dfeb15c5e927336d0441f4c4300e2cff0d0900b52d3b4",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"],
             },
             {
@@ -107,7 +107,7 @@ TestRegister.addTests([
         "expectedOutput": "0ac1af7002b3d761d1e55298da9d0506b9ae52057220a306e07b6b87e8df21d0ea00033de03984d34918",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"],
             },
             {
@@ -126,7 +126,7 @@ TestRegister.addTests([
         "expectedOutput": "2c91117204d745f3500d636a62f64f0ab3bae548aa53d423b0d1f27ebba6f5e5673a081d70cce7acfc48",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"],
             },
             {
@@ -145,7 +145,7 @@ TestRegister.addTests([
         "expectedOutput": "3cb25f25faacd57a90434f64d0362f2a2d2d0a90cf1a5a4c5db02d56ecc4c5bf34007208d5b887185865",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"],
             },
             {
@@ -164,7 +164,7 @@ TestRegister.addTests([
         "expectedOutput": "L too large (maximum length for SHA256 is 8160)",
         "recipeConfig": [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"],
             },
             {

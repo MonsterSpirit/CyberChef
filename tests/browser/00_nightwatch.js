@@ -39,7 +39,7 @@ module.exports = {
     "Operations loaded": browser => {
         browser.useXpath();
         // Check that an operation in every category has been populated
-        browser.expect.element("//li[contains(@class, 'operation') and text()='To Base64']").to.be.present;
+        browser.expect.element("//li[contains(@class, 'operation') and text()='编码 Base64']").to.be.present;
         browser.expect.element("//li[contains(@class, 'operation') and text()='To Binary']").to.be.present;
         browser.expect.element("//li[contains(@class, 'operation') and text()='AES Decrypt']").to.be.present;
         browser.expect.element("//li[contains(@class, 'operation') and text()='PEM to Hex']").to.be.present;
@@ -79,7 +79,7 @@ module.exports = {
         browser
             .useCss()
             .waitForElementVisible(op, 100)
-            .expect.element(op).text.to.contain("To Hex");
+            .expect.element(op).text.to.contain("编码 Hex");
 
         // Enter input
         browser

@@ -23,7 +23,7 @@ TestRegister.addTests([
                 args: ["", 10],
             },
             {
-                op: "To Base64",
+                op: "编码 Base64",
                 args: ["A-Za-z0-9+/="],
             },
         ],
@@ -42,7 +42,7 @@ TestRegister.addTests([
                 args: ["skipReplace", 10],
             },
             {
-                op: "To Base64",
+                op: "编码 Base64",
                 args: ["A-Za-z0-9+/="],
             },
             {

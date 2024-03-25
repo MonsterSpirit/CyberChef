@@ -48,7 +48,7 @@ TestRegister.addTests([
                 "args": ["IBM EBCDIC International (500)"]
             },
             {
-                "op": "To Hex",
+                "op": "编码 Hex",
                 "args": ["Space"]
             },
         ],
@@ -59,7 +59,7 @@ TestRegister.addTests([
         expectedOutput: "hello",
         recipeConfig: [
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Space"]
             },
             {
@@ -74,7 +74,7 @@ TestRegister.addTests([
         expectedOutput: "dir \"c:\\program files\" ",
         recipeConfig: [
             {
-                "op": "From Base64",
+                "op": "解码 Base64",
                 "args": ["A-Za-z0-9+/=", true]
             },
             {

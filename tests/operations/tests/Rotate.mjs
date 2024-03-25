@@ -16,7 +16,7 @@ TestRegister.addTests([
         expectedOutput: "",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["Space"]
             },
             {
@@ -24,7 +24,7 @@ TestRegister.addTests([
                 args: [1, false],
             },
             {
-                op: "To Hex",
+                op: "编码 Hex",
                 args: ["Space"]
             }
         ],
@@ -35,7 +35,7 @@ TestRegister.addTests([
         expectedOutput: "c2 c4 c6 62 64 66",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["Space"]
             },
             {
@@ -43,7 +43,7 @@ TestRegister.addTests([
                 args: [1, false],
             },
             {
-                op: "To Hex",
+                op: "编码 Hex",
                 args: ["Space"]
             }
         ],
@@ -54,7 +54,7 @@ TestRegister.addTests([
         expectedOutput: "85 89 8c c4 c8 cd",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["Space"]
             },
             {
@@ -62,7 +62,7 @@ TestRegister.addTests([
                 args: [2, true],
             },
             {
-                op: "To Hex",
+                op: "编码 Hex",
                 args: ["Space"]
             }
         ],
@@ -73,7 +73,7 @@ TestRegister.addTests([
         expectedOutput: "",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["Space"]
             },
             {
@@ -81,7 +81,7 @@ TestRegister.addTests([
                 args: [1, false],
             },
             {
-                op: "To Hex",
+                op: "编码 Hex",
                 args: ["Space"]
             }
         ],
@@ -92,7 +92,7 @@ TestRegister.addTests([
         expectedOutput: "b0 31 b1 98 19 99",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["Space"]
             },
             {
@@ -100,7 +100,7 @@ TestRegister.addTests([
                 args: [1, false],
             },
             {
-                op: "To Hex",
+                op: "编码 Hex",
                 args: ["Space"]
             }
         ],
@@ -111,7 +111,7 @@ TestRegister.addTests([
         expectedOutput: "d8 58 98 cc 4c 8c",
         recipeConfig: [
             {
-                op: "From Hex",
+                op: "解码 Hex",
                 args: ["Space"]
             },
             {
@@ -119,7 +119,7 @@ TestRegister.addTests([
                 args: [2, true],
             },
             {
-                op: "To Hex",
+                op: "编码 Hex",
                 args: ["Space"]
             }
         ],

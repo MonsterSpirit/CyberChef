@@ -18,9 +18,9 @@ class FromBase64 extends Operation {
     constructor() {
         super();
 
-        this.name = "From Base64";
+        this.name = "解码 Base64";
         this.module = "Default";
-        this.description = "Base64 is a notation for encoding arbitrary byte data using a restricted set of symbols that can be conveniently used by humans and processed by computers.<br><br>This operation decodes data from an ASCII Base64 string back into its raw format.<br><br>e.g. <code>aGVsbG8=</code> becomes <code>hello</code>";
+        this.description = "Base64 是一种使用受限符号集对任意字节数据进行编码的表示方法，这些符号既方便人类使用，又能被计算机处理。<br><br>这个操作将来自 ASCII 编码的 Base64 字符串的数据解码回其原始格式。<br><br>e.g. <code>aGVsbG8=</code> becomes <code>hello</code>";
         this.infoURL = "https://wikipedia.org/wiki/Base64";
         this.inputType = "string";
         this.outputType = "byteArray";
@@ -31,12 +31,12 @@ class FromBase64 extends Operation {
                 value: ALPHABET_OPTIONS
             },
             {
-                name: "Remove non-alphabet chars",
+                name: "移除非字母字符",
                 type: "boolean",
                 value: true
             },
             {
-                name: "Strict mode",
+                name: "严格模式",
                 type: "boolean",
                 value: false
             }

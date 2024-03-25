@@ -163,7 +163,7 @@ TestRegister.addTests([
                 "args": []
             },
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["Auto"]
             }
         ]
@@ -178,7 +178,7 @@ TestRegister.addTests([
                 "args": []
             },
             {
-                "op": "From Hex",
+                "op": "解码 Hex",
                 "args": ["None"]
             }
         ]

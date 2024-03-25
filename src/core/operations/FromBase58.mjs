@@ -33,7 +33,7 @@ class FromBase58 extends Operation {
                 "value": ALPHABET_OPTIONS
             },
             {
-                "name": "Remove non-alphabet chars",
+                "name": "移除非字母字符",
                 "type": "boolean",
                 "value": true
             }
