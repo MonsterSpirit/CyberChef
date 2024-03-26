@@ -16,7 +16,7 @@ TestRegister.addTests([
         expectedOutput: "Nothing of interest could be detected about the input data.\nHave you tried modifying the operation arguments?",
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [3, false, false]
             }
         ],
@@ -27,7 +27,7 @@ TestRegister.addTests([
         expectedMatch: /Properties[^#]+?#recipe=From_Hex\('Space'\)"/,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [3, false, false]
             }
         ],
@@ -38,7 +38,7 @@ TestRegister.addTests([
         expectedMatch: /Render_Image\('Raw'\)/,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [3, false, false]
             }
         ],
@@ -49,7 +49,7 @@ TestRegister.addTests([
         expectedMatch: /Быртрар коричневар лира прыгает через ленивую робаку./,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [1, true, false]
             }
         ],
@@ -60,7 +60,7 @@ TestRegister.addTests([
         expectedMatch: /Yiddish/,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [1, false, true]
             }
         ],
@@ -71,7 +71,7 @@ TestRegister.addTests([
         expectedMatch: /From_Base64\('A-Za-z0-9\+\/=',true,false\)\nFrom_Base64\('A-Za-z0-9\+\/=',true,false\)\nFrom_Base64\('A-Za-z0-9\+\/=',true,false\)/,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [3, false, false]
             }
         ],
@@ -82,7 +82,7 @@ TestRegister.addTests([
         expectedMatch: /From_Base64\('A-Za-z0-9\+\/=',true,false\)\nFrom_Hexdump\(\)\nFrom_Hex\('Space'\)/,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [3, false, false]
             }
         ],
@@ -93,7 +93,7 @@ TestRegister.addTests([
         expectedMatch: /From_Base32\('A-Z2-7=',false\)\nFrom_Octal\('Space'\)\nFrom_Hex\('Space'\)/,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [3, false, false]
             }
         ],
@@ -104,7 +104,7 @@ TestRegister.addTests([
         expectedMatch: /test string/,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [3, false, false]
             }
         ],
@@ -115,7 +115,7 @@ TestRegister.addTests([
         expectedMatch: /test string/,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [3, false, false]
             }
         ],
@@ -126,7 +126,7 @@ TestRegister.addTests([
         expectedMatch: /#recipe=Raw_Inflate(.|\n)+CyberChef is a simple, intuitive web app for carrying out all manner of /,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [1, false, false]
             }
         ]
@@ -137,7 +137,7 @@ TestRegister.addTests([
         expectedMatch: /Properties[^#]+?#recipe=Defang_IP_Addresses\(\)"/,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [1, false, false]
             }
         ]
@@ -148,7 +148,7 @@ TestRegister.addTests([
         unexpectedMatch: /Defang_IP_Addresses/,
         recipeConfig: [
             {
-                op: "Magic",
+                op: "魔术（操作）",
                 args: [1, false, false]
             }
         ]

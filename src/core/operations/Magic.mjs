@@ -20,7 +20,7 @@ class Magic extends Operation {
     constructor() {
         super();
 
-        this.name = "Magic";
+        this.name = "魔术（操作）";
         this.flowControl = true;
         this.module = "Default";
         this.description = "The Magic operation attempts to detect various properties of the input data and suggests which operations could help to make more sense of it.<br><br><b>Options</b><br><u>Depth:</u> If an operation appears to match the data, it will be run and the result will be analysed further. This argument controls the maximum number of levels of recursion.<br><br><u>Intensive mode:</u> When this is turned on, various operations like XOR, bit rotates, and character encodings are brute-forced to attempt to detect valid data underneath. To improve performance, only the first 100 bytes of the data is brute-forced.<br><br><u>Extensive language support:</u> At each stage, the relative byte frequencies of the data will be compared to average frequencies for a number of languages. The default set consists of ~40 of the most commonly used languages on the Internet. The extensive list consists of 284 languages and can result in many languages matching the data if their byte frequencies are similar.<br><br>Optionally enter a regular expression to match a string you expect to find to filter results (crib).";
@@ -30,22 +30,22 @@ class Magic extends Operation {
         this.presentType = "html";
         this.args = [
             {
-                "name": "Depth",
+                "name": "深度（操作）",
                 "type": "number",
                 "value": 3
             },
             {
-                "name": "Intensive mode",
+                "name": "强化模式（操作）",
                 "type": "boolean",
                 "value": false
             },
             {
-                "name": "Extensive language support",
+                "name": "广泛的语言支持（操作）",
                 "type": "boolean",
                 "value": false
             },
             {
-                "name": "Crib (known plaintext string or regex)",
+                "name": "Crib（已知的明文字符串或正则表达式）",
                 "type": "string",
                 "value": ""
             }

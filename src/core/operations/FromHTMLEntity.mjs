@@ -875,7 +875,7 @@ const entityToByte = {
     "Sup": 8913,
     "Cap": 8914,
     "Cup": 8915,
-    "fork": 8916,
+    "分叉": 8916,
     "epar": 8917,
     "ltdot": 8918,
     "gtdot": 8919,

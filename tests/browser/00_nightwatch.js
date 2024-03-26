@@ -111,7 +111,7 @@ module.exports = {
             .waitForElementNotVisible("#output-loader", 5000);
 
         // Charts
-        loadOp("Entropy", browser)
+        loadOp("熵", browser)
             .waitForElementNotVisible("#output-loader", 5000);
 
         // Ciphers
@@ -131,7 +131,7 @@ module.exports = {
             .waitForElementNotVisible("#output-loader", 5000);
 
         // Default
-        loadOp("Fork", browser)
+        loadOp("分叉", browser)
             .waitForElementNotVisible("#output-loader", 5000);
 
         // Diff

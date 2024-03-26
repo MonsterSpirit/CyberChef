@@ -91,44 +91,44 @@ class RegularExpression extends Operation {
                 "target": 1
             },
             {
-                "name": "Regex",
+                "name": "正则表达式",
                 "type": "text",
                 "value": ""
             },
             {
-                "name": "Case insensitive",
+                "name": "不区分大小写的(正则表达式)",
                 "type": "boolean",
                 "value": true
             },
             {
-                "name": "^ and $ match at newlines",
+                "name": "^和$匹配在新行处(正则表达式)",
                 "type": "boolean",
                 "value": true
             },
             {
-                "name": "Dot matches all",
+                "name": "点匹配所有（正则表达式）",
                 "type": "boolean",
                 "value": false
             },
             {
-                "name": "Unicode support",
+                "name": "Unicode支持(正则表达式)",
                 "type": "boolean",
                 "value": false
             },
             {
-                "name": "Astral support",
+                "name": "Astral支持(正则表达式)",
                 "type": "boolean",
                 "value": false
             },
             {
-                "name": "Display total",
+                "name": "显示总数",
                 "type": "boolean",
                 "value": false
             },
             {
-                "name": "Output format",
+                "name": "输出格式",
                 "type": "option",
-                "value": ["Highlight matches", "List matches", "List capture groups", "List matches with capture groups"]
+                "value": ["高亮匹配（正则表达式）", "列出匹配（正则表达式）", "列出捕获组（正则表达式）", "列出带有捕获组的匹配（正则表达式）"]
             }
         ];
     }

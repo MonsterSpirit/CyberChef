@@ -445,7 +445,7 @@ color: white;
         assert.strictEqual(chef.dropBytes("There's No I in Team").toString(), "'s No I in Team");
     }),
 
-    it("Entropy", () => {
+    it("熵", () => {
         const result = chef.entropy("Ride Him, Cowboy!");
         assert.strictEqual(result.toString(), "3.734521664779752");
     }),
@@ -823,7 +823,7 @@ pCGTErs=
             "b85cb1c4ed6bed8f260ab92829bba942");
     }),
 
-    it("Regular Expression", () => {
+    it("正则表达式", () => {
         assert.strictEqual(chef.regularExpression("Wouldn't Harm a Fly", {regex: "\\'[a-z]"}).toString(), "Wouldn't Harm a Fly");
     }),
 

@@ -138,7 +138,7 @@ class BackgroundWorkerWaiter {
 
         this.bake(input, [
             {
-                "op": "Magic",
+                "op": "魔术（操作）",
                 "args": [3, false, false]
             }
         ], {}, 0, false, this.magicComplete);

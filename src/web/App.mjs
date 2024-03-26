@@ -358,14 +358,14 @@ class App {
         }
 
         const favCat = this.categories.filter(function(c) {
-            return c.name === "Favourites";
+            return c.name === "收藏夹";
         })[0];
 
         if (favCat) {
             favCat.ops = favourites;
         } else {
             this.categories.unshift({
-                name: "Favourites",
+                name: "收藏夹",
                 ops: favourites
             });
         }
@@ -407,7 +407,7 @@ class App {
             return false;
         }
 
-        localStorage.setItem("favourites", JSON.stringify(this.validFavourites(favourites)));
+        localStorage.setItem("收藏夹", JSON.stringify(this.validFavourites(favourites)));
     }
 
 

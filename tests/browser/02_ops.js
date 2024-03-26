@@ -116,7 +116,7 @@ module.exports = {
         // testOp(browser, "Encode NetBIOS Name", "test input", "test_output");
         // testOp(browser, "Encode text", "test input", "test_output");
         // testOp(browser, "Enigma", "test input", "test_output");
-        testOpHtml(browser, "Entropy", "test input", "", /Shannon entropy: 2.8464393446710154/);
+        testOpHtml(browser, "熵", "test input", "", /Shannon entropy: 2.8464393446710154/);
     // testOp(browser, "Escape string", "test input", "test_output");
         // testOp(browser, "Escape Unicode Characters", "test input", "test_output");
         // testOp(browser, "Expand alphabet range", "test input", "test_output");
@@ -139,7 +139,7 @@ module.exports = {
         // testOp(browser, "Fletcher-64 Checksum", "test input", "test_output");
         // testOp(browser, "Fletcher-8 Checksum", "test input", "test_output");
         testOpImage(browser, "Flip Image", "files/Hitchhikers_Guide.jpeg");
-        // testOp(browser, "Fork", "test input", "test_output");
+        // testOp(browser, "分叉", "test input", "test_output");
         // testOp(browser, "Format MAC addresses", "test input", "test_output");
         testOpHtml(browser, "Frequency distribution", "test input", "", /Number of bytes not represented: 248/);
         // testOp(browser, "From BCD", "test input", "test_output");
@@ -220,9 +220,9 @@ module.exports = {
     // testOp(browser, "MD4", "test input", "test_output");
     // testOp(browser, "MD5", "test input", "test_output");
     // testOp(browser, "MD6", "test input", "test_output");
-        testOpHtml(browser, "Magic", "dGVzdF9vdXRwdXQ=", "tr:nth-of-type(1) th:nth-of-type(2)", "Result snippet");
-        testOpHtml(browser, "Magic", "dGVzdF9vdXRwdXQ=", "tr:nth-of-type(2) td:nth-of-type(2)", "test_output");
-        testOpHtml(browser, "Magic", "dGVzdF9vdXRwdXQ=", "tr:nth-of-type(2) td:nth-of-type(1)", /Base64/);
+        testOpHtml(browser, "魔术（操作）", "dGVzdF9vdXRwdXQ=", "tr:nth-of-type(1) th:nth-of-type(2)", "Result snippet");
+        testOpHtml(browser, "魔术（操作）", "dGVzdF9vdXRwdXQ=", "tr:nth-of-type(2) td:nth-of-type(2)", "test_output");
+        testOpHtml(browser, "魔术（操作）", "dGVzdF9vdXRwdXQ=", "tr:nth-of-type(2) td:nth-of-type(1)", /Base64/);
         // testOp(browser, "Mean", "test input", "test_output");
         // testOp(browser, "Median", "test input", "test_output");`
         // testOp(browser, "Merge", "test input", "test_output");`
@@ -279,7 +279,7 @@ module.exports = {
     // testOp(browser, "Raw Deflate", "test input", "test_output");
     // testOp(browser, "Raw Inflate", "test input", "test_output");
         // testOp(browser, "Register", "test input", "test_output");
-        testOpHtml(browser, "Regular expression", "The cat sat on the mat", ".hl2:last-child", "mat", ["User defined", ".at", true, true, false, false, false, false, "Highlight matches"]);
+        testOpHtml(browser, "正则表达式", "The cat sat on the mat", ".hl2:last-child", "mat", ["User defined", ".at", true, true, false, false, false, false, "Highlight matches"]);
         // testOp(browser, "Remove Diacritics", "test input", "test_output");
         // testOp(browser, "Remove EXIF", "test input", "test_output");
         // testOp(browser, "Remove line numbers", "test input", "test_output");

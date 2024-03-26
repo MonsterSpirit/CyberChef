@@ -1,6 +1,6 @@
 [
     {
-        "name": "Favourites",
+        "name": "收藏夹",
         "ops": []
     },
     {
@@ -282,7 +282,7 @@
             "Take bytes",
             "Pad lines",
             "Find / Replace",
-            "Regular expression",
+            "正则表达式",
             "Fuzzy Match",
             "Offset checker",
             "Hamming Distance",
@@ -330,7 +330,7 @@
             "Extract domains",
             "Extract file paths",
             "Extract dates",
-            "Regular expression",
+            "正则表达式",
             "XPath expression",
             "JPath expression",
             "CSS selector",
@@ -500,7 +500,7 @@
     {
         "name": "Other",
         "ops": [
-            "Entropy",
+            "熵",
             "Frequency distribution",
             "Index of Coincidence",
             "Chi Square",
@@ -523,8 +523,8 @@
     {
         "name": "Flow control",
         "ops": [
-            "Magic",
-            "Fork",
+            "魔术（操作）",
+            "分叉",
             "Subsection",
             "Merge",
             "Register",

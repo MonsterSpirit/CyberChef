@@ -23,7 +23,7 @@ class Entropy extends Operation {
     constructor() {
         super();
 
-        this.name = "Entropy";
+        this.name = "熵";
         this.module = "Charts";
         this.description = "Shannon Entropy, in the context of information theory, is a measure of the rate at which information is produced by a source of data. It can be used, in a broad sense, to detect whether data is likely to be structured or unstructured. 8 is the maximum, representing highly unstructured, 'random' data. English language text usually falls somewhere between 3.5 and 5. Properly encrypted or compressed data should have an entropy of over 7.5.";
         this.infoURL = "https://wikipedia.org/wiki/Entropy_(information_theory)";
@@ -32,9 +32,9 @@ class Entropy extends Operation {
         this.presentType = "html";
         this.args = [
             {
-                "name": "Visualisation",
+                "name": "可视化",
                 "type": "option",
-                "value": ["Shannon scale", "Histogram (Bar)", "Histogram (Line)", "Curve", "Image"]
+                "value": ["香农量表", "直方图（条形图）", "直方图（线形图）", "曲线", "Image"]
             }
         ];
     }
@@ -291,7 +291,7 @@ class Entropy extends Operation {
             svg.selectAll("path").attr("fill", "none").attr("stroke", "steelblue");
         }
 
-        this.createAxes(svg, xScale, yScale, svgHeight, svgWidth, margins, "Scanning Entropy", "Block", "Entropy");
+        this.createAxes(svg, xScale, yScale, svgHeight, svgWidth, margins, "Scanning Entropy", "Block", "熵");
 
         return svg._groups[0][0].outerHTML;
     }

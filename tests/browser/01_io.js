@@ -282,7 +282,7 @@ module.exports = {
 
     "HTML output": browser => {
         /* Displays correctly */
-        utils.loadRecipe(browser, "Entropy", ALL_BYTES);
+        utils.loadRecipe(browser, "熵", ALL_BYTES);
         utils.bake(browser);
 
         browser

@@ -199,7 +199,7 @@ class Manager {
         document.getElementById("copy-output").addEventListener("click", this.output.copyClick.bind(this.output));
         document.getElementById("switch").addEventListener("click", this.output.switchClick.bind(this.output));
         document.getElementById("maximise-output").addEventListener("click", this.output.maximiseOutputClick.bind(this.output));
-        document.getElementById("magic").addEventListener("click", this.output.magicClick.bind(this.output));
+        document.getElementById("魔术（操作）").addEventListener("click", this.output.magicClick.bind(this.output));
         this.addDynamicListener(".extract-file,.extract-file i", "click", this.output.extractFileClick, this.output);
         this.addDynamicListener("#output-tabs-wrapper #output-tabs li .output-tab-content", "click", this.output.changeTabClick, this.output);
         document.getElementById("btn-previous-output-tab").addEventListener("mousedown", this.output.previousTabClick.bind(this.output));

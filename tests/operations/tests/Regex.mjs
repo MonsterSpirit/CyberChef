@@ -14,7 +14,7 @@ TestRegister.addTests([
         expectedOutput: "/<>",
         recipeConfig: [
             {
-                "op": "Regular expression",
+                "op": "正则表达式",
                 "args": ["User defined", "", true, true, false, false, false, false, "Highlight matches"]
             },
             {
@@ -29,7 +29,7 @@ TestRegister.addTests([
         expectedOutput: "Hello\nWorld",
         recipeConfig: [
             {
-                "op": "Regular expression",
+                "op": "正则表达式",
                 "args": ["User defined", ".+", true, true, true, false, false, false, "List matches"]
             }
         ],
@@ -40,7 +40,7 @@ TestRegister.addTests([
         expectedOutput: "",
         recipeConfig: [
             {
-                "op": "Regular expression",
+                "op": "正则表达式",
                 "args": ["User defined", "\\pS", true, true, false, false, false, false, "List matches"]
             }
         ],
@@ -51,7 +51,7 @@ TestRegister.addTests([
         expectedOutput: "𝌆\n😆",
         recipeConfig: [
             {
-                "op": "Regular expression",
+                "op": "正则表达式",
                 "args": ["User defined", "\\pS", true, true, false, false, true, false, "List matches"]
             }
         ],
