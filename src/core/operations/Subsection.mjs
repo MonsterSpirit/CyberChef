@@ -80,7 +80,7 @@ class Subsection extends Operation {
                         // Not this subsection's Merge.
                         subOpList.push(opList[i]);
                 } else {
-                    if (opList[i].name === "分叉" || opList[i].name === "Subsection")
+                    if (opList[i].name === "Fork" || opList[i].name === "Subsection")
                         numOp++;
                     subOpList.push(opList[i]);
                 }

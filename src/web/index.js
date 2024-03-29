@@ -33,10 +33,10 @@ function main() {
         "编码 Hexdump",
         "解码 Hexdump",
         "URL 解码",
-        "正则表达式",
-        "熵",
-        "分叉",
-        "魔术（操作）"
+        "Regular expression",
+        "Entropy",
+        "Fork",
+        "Magic"
     ];
 
     const defaultOptions = {

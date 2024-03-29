@@ -15,7 +15,7 @@ TestRegister.addTests([
         expectedOutput: "",
         recipeConfig: [
             {
-                op: "分叉",
+                op: "Fork",
                 args: ["\n", "\n", false],
             },
         ],
@@ -26,7 +26,7 @@ TestRegister.addTests([
         expectedOutput: "",
         recipeConfig: [
             {
-                op: "分叉",
+                op: "Fork",
                 args: ["\n", "\n", false],
             },
             {
@@ -41,7 +41,7 @@ TestRegister.addTests([
         expectedOutput: "Incorrect number of sets, perhaps you need to modify the sample delimiter or add more samples?",
         recipeConfig: [
             {
-                op: "分叉",
+                op: "Fork",
                 args: ["\n\n", "\n\n", false],
             },
             {
@@ -59,7 +59,7 @@ TestRegister.addTests([
         input: "Some data with a 1 in it\nSome data with a 2 in it",
         expectedOutput: "U29tZSBkYXRhIHdpdGggYSAxIGluIGl0\n53 6f 6d 65 20 64 61 74 61 20 77 69 74 68 20 61 20 32 20 69 6e 20 69 74",
         recipeConfig: [
-            {"op": "分叉", "args": ["\\n", "\\n", false]},
+            {"op": "Fork", "args": ["\\n", "\\n", false]},
             {"op": "Conditional Jump", "args": ["1", false, "skipReturn", "10"]},
             {"op": "编码 Hex", "args": ["Space"]},
             {"op": "Return", "args": []},
@@ -72,8 +72,8 @@ TestRegister.addTests([
         input: "Hello World",
         expectedOutput: "48656c6c6f 576f726c64",
         recipeConfig: [
-            { "op": "分叉",   "args": [" ", " ", false] },
-            { "op": "分叉",   "args": ["l", "l", false] },
+            { "op": "Fork",   "args": [" ", " ", false] },
+            { "op": "Fork",   "args": ["l", "l", false] },
             { "op": "Merge",  "args": [false] },
             { "op": "编码 Hex", "args": ["None", 0] },
         ]

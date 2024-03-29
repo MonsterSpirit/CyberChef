@@ -7,7 +7,7 @@
  */
 export default  [
     // This functionality can be done more easily using JavaScript
-    "分叉",
+    "Fork",
     "Merge",
     "Jump",
     "ConditionalJump",

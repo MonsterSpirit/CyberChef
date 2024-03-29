@@ -346,7 +346,7 @@ TestRegister.addApiTests([
     }),
 
     it("chef.bake: cannot accept flowControl operations in recipe", () => {
-        assert.throws(() => chef.bake("some input", "魔术（操作）"), {
+        assert.throws(() => chef.bake("some input", "magic"), {
             name: "TypeError",
             message: "flowControl operations like Magic are not currently allowed in recipes for chef.bake in the Node API"
         });
@@ -354,7 +354,7 @@ TestRegister.addApiTests([
             name: "TypeError",
             message: "flowControl operations like Magic are not currently allowed in recipes for chef.bake in the Node API"
         });
-        assert.throws(() => chef.bake("some input", ["to base 64", "魔术（操作）"]), {
+        assert.throws(() => chef.bake("some input", ["to base 64", "magic"]), {
             name: "TypeError",
             message: "flowControl operations like Magic are not currently allowed in recipes for chef.bake in the Node API"
         });

@@ -45,7 +45,7 @@ TestRegister.addTests([
         expectedOutput: "Y2F0\nc2F0\nbWF0",
         recipeConfig: [
             {
-                "op": "分叉",
+                "op": "Fork",
                 "args": ["\\n", "\\n", false]
             },
             {

@@ -1300,7 +1300,7 @@ class OutputWaiter {
      * @fires Manager#statechange
      */
     magicClick() {
-        const magicButton = document.getElementById("魔术（操作）");
+        const magicButton = document.getElementById("magic");
         this.app.setRecipeConfig(JSON.parse(magicButton.getAttribute("data-recipe")));
         window.dispatchEvent(this.manager.statechange);
         this.hideMagicButton();
@@ -1313,7 +1313,7 @@ class OutputWaiter {
      * @param {Object[]} recipeConfig
      */
     showMagicButton(msg, recipeConfig) {
-        const magicButton = document.getElementById("魔术（操作）");
+        const magicButton = document.getElementById("magic");
         magicButton.setAttribute("data-original-title", msg);
         magicButton.setAttribute("data-recipe", JSON.stringify(recipeConfig), null, "");
         magicButton.classList.remove("hidden");
@@ -1325,7 +1325,7 @@ class OutputWaiter {
      * Hides the Magic button and resets its values.
      */
     hideMagicButton() {
-        const magicButton = document.getElementById("魔术（操作）");
+        const magicButton = document.getElementById("magic");
         magicButton.classList.add("hidden");
         magicButton.classList.remove("pulse");
         magicButton.setAttribute("data-recipe", "");
